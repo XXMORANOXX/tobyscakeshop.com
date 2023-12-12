@@ -62,8 +62,41 @@
 
 	
 	<div class="search">
-		<input type="search" placeholder="search...">
+		<input type="text" id="searchinput" placeholder="search... ">
+        <button type="button" class="submit-btn" onclick="searchbar()">Search</button>
 	</div>
+
+    <script>
+        function searchbar() {
+          var search = document.getElementById('searchinput').value;
+         
+      
+          if (search === 'cakes') {
+            window.location.href = 'Cakes_Categories.html';
+          }
+
+          if (search === 'cake') {
+            window.location.href = 'Cakes_Categories.html';
+          }
+
+          if (search === 'home') {
+            window.location.href = 'mainpage.html';
+          }
+
+          if (search === 'about') {
+            window.location.href = 'about.html';
+          }
+           
+
+          if (search === 'pastries') {
+            window.location.href = 'Pastries.html';
+          }
+
+          if (search === 'pastries') {
+            window.location.href = 'Pastries.html';
+          }
+        }
+      </script>
 	</header>
 	<!-- header section end here -->
 	
