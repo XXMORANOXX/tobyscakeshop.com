@@ -1,0 +1,236 @@
+[
+    {
+        "id": 1,
+        "name": "Signature Round",
+        "price": 600,
+        "image": "origcake1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Signature Rectangle",
+        "price": 900,
+        "image": "signaturerectangle.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Ube Round",
+        "price": 700,
+        "image": "uberound.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Ube Rectangle",
+        "price": 980,
+        "image": "uberectangle.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Yoghurt Mango",
+        "price": 850,
+        "image": "yoghurtmango.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Yoghurt Blueberry",
+        "price": 850,
+        "image": "yoghurtblue.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Yoghurt Strawberry",
+        "price": 850,
+        "image": "yoghurtstraw.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Choco Butternut Cake",
+        "price": 680,
+        "image": "chocobutternut.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Nutella Premium Cake",
+        "price": 880,
+        "image": "nutellaprem.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Black Forest Cake",
+        "price": 850,
+        "image": "blackforest.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Mocha Cake",
+        "price": 850,
+        "image": "mochacake.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Espresso Cake",
+        "price": 850,
+        "image": "espresso cake.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Cookies N Cream Cake",
+        "price": 850,
+        "image": "cookiesncreamcake.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Cookie Monster Cake",
+        "price": 750,
+        "image": "cookiemonster.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Oreo Classic Round",
+        "price": 870,
+        "image": "oreocake.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Cheese Cake",
+        "price": 980,
+        "image": "cheesecake.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Tiramisu Cake",
+        "price": 890,
+        "image": "tiramisu.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Truffle Cake",
+        "price": 890,
+        "image": "trufflecake.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Carrot Cake",
+        "price": 850,
+        "image": "carrotcake.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Mango Classic Mini",
+        "price": 450,
+        "image": "MangoMini.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Yema Classic Mini",
+        "price": 450,
+        "image": "YemaCake.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Black Forest Classic Mini",
+        "price": 470,
+        "image": "blackforestmini.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Oreo Classic Mini",
+        "price": 450,
+        "image": "oreomini.jpg"
+    },
+    {
+        "id": 24,
+        "name": "ChocoButternut Mini",
+        "price": 530,
+        "image": "chocobutternutmini.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Almond Lemon Loaf",
+        "price": 185,
+        "image": "almondloaf.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Banana Special Cake",
+        "price": 345,
+        "image": "bananacake.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Banana Cupcake",
+        "price": 115,
+        "image": "bananacupcake.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Banana Loaf",
+        "price": 120,
+        "image": "bananaloaf.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Brownies",
+        "price": 495,
+        "image": "brownies.jpeg"
+    },
+    {
+        "id": 30,
+        "name": "Chocolate Cupcake",
+        "price": 110,
+        "image": "chocolatecupcake.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Crinkle Cookies",
+        "price": 165,
+        "image": "crinklecookies.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Choco Balls",
+        "price": 110,
+        "image": "chocoballs.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Choco Mud Cake",
+        "price": 230,
+        "image": "chocomudcake.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Chiffon Cake",
+        "price": 185,
+        "image": "chiffoncake.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Cupcake w/ Frosting",
+        "price": 545,
+        "image": "cupcakewithfrosting.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Kutchinta",
+        "price": 85,
+        "image": "kutchinta.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Native Macaroons",
+        "price": 135,
+        "image": "nativemacaroons.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Temptation Cookies",
+        "price": 165,
+        "image": "temptationcookies.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Special Ensaimada",
+        "price": 38,
+        "image": "specialensaymada.jpg"
+    }
+]

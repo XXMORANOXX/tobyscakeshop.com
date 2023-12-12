@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+	--goldenrod: #DAA520;
+	--black: #000000;
+	--box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+body {
+	background-color: var(--black);
+	height: 100%;
+	z-index: -99;
+	color: white;
+}
+html{   
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--goldenrod);
+    border-radius: 5rem;
+}
+*{
+	font-family: 'Quicksand', sans-serif;
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	transition: .2s linear;
+}
+.header {
+	top: 0;right: 0;left: 0;
+	background-color: var(--goldenrod);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	padding: 1.4rem 3%;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+	z-index: 999;
+} 
+.header .logoContent {
+	display: flex;
+	align-items: center;
+}
+.header .logoContent img {
+	height: 4rem;
+}
+.header .logoName {
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.7rem;
+	font-weight: bolder;
+	padding-left: 0.7rem;
+}
+.circular--portrait { 
+	position: relative;
+	height: 4rem;
+	width: 4rem;
+	overflow: hidden; 
+	border-radius: 50%; 
+} 
+.circular--portrait img { 
+width: 100%; 
+height: auto; 
+}
+.header .navbar ul{
+    display: flex;
+    list-style: none;
+}
+.header .navbar li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+.header .navbar a{
+	font-size: 1.3rem;
+	margin-right: 2.5rem;
+	color: white;
+}
+.header .navbar a:hover{
+    border-bottom: .1rem solid black;
+}
+.header .navbar li:hover a{
+	color: #222;
+	padding-bottom: .4rem;
+}
+#submenu{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+li:hover ul#submenu{
+    display: block;
+    opacity: 1;
+    background-color: goldenrod;
+    color: white;
+    top: 50px;
+    visibility: visible;
+    border-radius: 0.5rem;
+}
+#submenu li{
+    float: none;
+    width: 100%;
+    margin: 1rem 1rem;
+}
+#submenu a{
+    color: white;
+}
+#submenu a:hover{
+    color: black;
+    border-bottom: .1rem solid black;
+}
+.header .icon i{
+	font-size: 1.3rem;
+	margin-right: 1.3rem;
+	cursor: pointer;
+}
+.header .icon a{
+    color: white;
+}
+.header .icon i:hover{
+	color: #222;
+}
+.header .icon #cart-btn{
+    letter-spacing: 5px;
+}
+.header .icon #cart-btn span{
+    background-color: red;
+    padding-left: 5px;
+    border-style: solid red;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.header .search{
+    display: none;
+    top: 100%;
+    margin: 1.5rem 7%;
+    background-color: transparent;
+    width: 50%;
+    right: 0;
+    height: 5rem;
+    position:  absolute;
+
+}
+.header .search input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    margin-right: 7%;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    box-shadow: var(--box-shadow);
+}
+.header .search.active{
+    display: inline-block;
+}
+#menu-btn{
+	display: none;
+}
+
+section{
+    padding: 2rem 7%;
+}
+
+.heading{
+	background: url(bannerbg2.jpg) repeat-x;
+	background-size: contain;
+	background-position: center;
+	padding-top: 10rem;
+	padding-bottom: 6rem;
+}
+.heading h1{
+	text-align: center;
+	font-size: 3rem;
+	text-shadow: 3px 2px gray;
+}
+
+.home {
+	min-height: 100vh;
+	display: block;
+	align-items: center;
+	background: url(about1.jpg) no-repeat;
+	background-size: 47% 47%;
+	background-position: center right;
+}
+.home .homeContent{
+	width: 55%;
+	float: left;
+	text-align: center;
+    padding-top: 6rem;
+	padding-left: 6rem;
+    padding-right: 6rem;
+}
+.home .homeContent h2{
+	font-size: 3.2rem;
+	font-weight: bolder;
+	margin-bottom: 3rem;
+	line-height: 5rem;
+	text-shadow: 3px 2px gray;
+}
+.home .homeContent p{
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin-bottom: 2rem;
+}
+.home .homeContent .home-btn{
+	height: 3rem;
+}
+.home .homeContent .home-btn button{
+	font-size: 1.5rem;
+	background-color: var(--goldenrod);
+	color: white;
+	border-radius: .7rem;
+	padding: .7rem 2rem;
+	cursor: pointer;
+}
+.home .homeContent .home-btn button:hover{
+	font-size: 1.7rem;
+	background-color: #222;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.about .img{
+    flex: 1 1 40rem;
+}
+
+.about .img img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(0,0,0,0.7);
+  
+}
+
+.about .content{
+    flex: 1 1 40rem;
+}
+
+.about .content span{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.about .content h3{
+    color: var(--goldenrod);
+    font-size: 3rem;
+    padding-top:.5rem;
+}
+
+.about .content p{
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2;
+    padding:1rem 0;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+	border-radius: .7rem;
+    background:var(--goldenrod);
+    color: white;
+    font-size:1.7rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #222;
+	color: var(--goldenrod);
+}
+
+.heading2{
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+.heading2 h1{
+	text-align: center;
+	font-size: 3rem;
+	text-shadow: 3px 2px gray;
+}
+
+.info-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.info-container .info{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    border:0.1rem solid rgba(221, 180, 0, 0.856);
+    background: white;
+}
+.info-container .info:hover{
+    background: goldenrod;
+}
+
+.info-container .info img{
+    height: 7rem;
+}
+
+.info-container .info .content h3{
+    font-size: 2rem;
+    color: black;
+    padding-bottom: .5rem;
+}
+
+.info-container .info .content span{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.space{
+    min-height: 15vh;
+}
+
+.footer{
+    background:var(--brown);
+
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color: goldenrod;
+    padding:1rem 0;
+}
+
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: .5rem;
+}
+
+.footer .box-container .box a{
+    font-size: 1.4rem;
+    color: white;
+    padding:1rem 0;
+    display:block;
+}
+
+.footer .box-container .box a:hover{
+    color: goldenrod;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: goldenrod;
+}
+
+
+.credit{
+    text-align: center;
+    align-items: center;
+    background:var(--brown);
+    color: white;
+}
+.credit .logoContent{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+.credit h1{
+    font-size: 2rem;
+    padding-left: .7rem;
+}
+.credit .logo{
+	display: flex;
+	align-items: center;
+}
+.credit .logo img {
+	height: 4rem;
+}
+
+
+
+
+
+
+
+
+/*For media query*/
+@media (max-width:991px){
+    html{
+        font-size: 65%;
+    }
+    .header{
+        padding: 1.3rem 3rem;
+    }
+    .home .homeContent{
+        margin-left: 100;
+        width: 80%;
+    }
+}
+
+@media (max-width:768px) {
+    #menu-btn{
+        display: inline-block;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 15rem;
+        background-color: goldenrod;
+        height: 100vh;
+    }
+    .header .navbar.active{
+        right: 0;
+    }
+    .header .navbar ul{
+        display: block;
+        font-size: 3rem;
+        color: white;
+        margin: 1.5rem;
+    }
+
+    .home .homeContent{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+}
