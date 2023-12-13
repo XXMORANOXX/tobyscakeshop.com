@@ -1,4 +1,28 @@
 <?php
+$_SERVER = "localhost";
+$name = "name";
+$phone = "phone";
+$address = "address";
+$country = "country";
+$city = "city";
+
+// Create connection
+$conn = new mysqli($servername, $name, $phone, $address, $country, $city);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+// Create database
+$sql = "CREATE DATABASE myDB";
+if ($conn->query($sql) === TRUE) {
+  echo "Database created successfully";
+} else {
+  echo "Error creating database: " . $conn->error;
+}
+
+$conn->close();
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $fullName = htmlspecialchars($_POST["name"]);
